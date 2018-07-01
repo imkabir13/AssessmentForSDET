@@ -2,6 +2,8 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 
 <suite name="Assessment for SDET" parallel="false">
+    <!--Change the browser_name or operating_system value if needed.
+    Such as, "Firefox" to "Chrome" and "Mac OS" to "Windows" or "Linux"-->
     <parameter name="browser_name" value="Firefox"/>
     <parameter name="operating_system" value="Mac OS"/>
     <parameter name="URL" value="https://www.weightwatchers.com/us/"/>
