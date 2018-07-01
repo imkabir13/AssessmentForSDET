@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Assessment for SDET" parallel="false">
+    <parameter name="browser_name" value="Firefox"/>
+    <parameter name="operating_system" value="Mac OS"/>
+    <parameter name="URL" value="https://www.weightwatchers.com/us/"/>
+
+    <test name="Question2 Module">
+        <classes>
+            <class name="TestCases.TestFindMeeting"/>
+        </classes>
+    </test>
+</suite>
